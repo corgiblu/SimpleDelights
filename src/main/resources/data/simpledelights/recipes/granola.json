@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": [
+        { "item": "simplefarming:peanut" },
+        { "item": "simplefarming:oatmeal" },
+        { "item": "minecraft:sugar" }
+    ],
+
+    "result": {
+        "item": "simpledelights:granola",
+        "count": 2
+    }
+}

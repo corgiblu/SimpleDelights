@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simplefarming:strawberries"},
+		{ "tag": "forge:grain"},
+		{ "tag": "forge:milk"},
+		{ "tag": "forge:eggs" }
+	],
+
+	"result": {"item": "simpledelights:strawberry_shortcake"}
+
+}

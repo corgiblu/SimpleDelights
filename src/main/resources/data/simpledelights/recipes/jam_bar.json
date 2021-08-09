@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simpledelights:granola"},
+		{ "item": "simplefarming:jam"},
+		{ "item": "minecraft:sugar"}
+	],
+
+	"result": {"item": "simpledelights:jam_bar"}
+
+}

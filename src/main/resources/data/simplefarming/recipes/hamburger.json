@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "farmersdelight:beef_patty"
+    },
+    {
+      "tag": "forge:crops/tomato"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "item": "simplefarming:pickle"
+    }
+    ],
+	
+	"result": {"item": "simplefarming:hamburger"}
+	
+}

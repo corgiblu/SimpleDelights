@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:cooked_chicken"
+    },
+    {
+      "tag": "forge:pasta"
+    }
+
+	],
+	
+	"result": {"item": "simplefarming:chicken_noodle_soup"}
+	
+}

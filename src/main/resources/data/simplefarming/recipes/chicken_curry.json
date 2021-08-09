@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"PMP",
+		"RRR"
+	],
+	
+	"key":
+	{
+		"M": { "tag": "forge:cooked_chicken"},
+		"R": { "tag": "forge:grain/rice"},
+		"P": { "item": "simplefarming:curry_powder"}
+
+	},
+	
+	"result": {"item": "simplefarming:chicken_curry"}
+	
+}

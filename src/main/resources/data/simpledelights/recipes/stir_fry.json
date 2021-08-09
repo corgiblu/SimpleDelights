@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "simplefarming:soybean"
+    },
+    {
+      "item": "simplefarming:tofu"
+    }
+  ],
+  "result": {
+    "item": "simpledelights:stir_fry"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

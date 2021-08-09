@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "tag": "forge:pasta"},
+		{ "tag": "forge:pasta"},
+		{ "item": "farmersdelight:tomato_sauce"},
+		{ "item": "simplefarming:cheese_slice"},
+		{ "tag": "forge:cooked_beef"}
+
+	],
+
+	"result": {"item": "simplefarming:lasagna"}
+}

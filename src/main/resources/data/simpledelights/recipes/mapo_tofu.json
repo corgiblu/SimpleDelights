@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:raw_beef"
+    },
+    {
+      "item": "simplefarming:soybean"
+    },
+    {
+      "item": "simplefarming:tofu"
+    }
+  ],
+  "result": {
+    "item": "simpledelights:mapo_tofu"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

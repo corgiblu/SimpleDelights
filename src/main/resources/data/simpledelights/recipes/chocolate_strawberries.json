@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simplefarming:strawberries"},
+		{ "item": "simplefarming:chocolate"}
+	],
+
+	"result": {"item": "simpledelights:chocolate_strawberries"}
+
+}

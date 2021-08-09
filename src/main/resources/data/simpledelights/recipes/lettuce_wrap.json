@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simplefarming:lettuce"},
+		{ "item": "simplefarming:radish"},
+		{ "tag": "forge:cooked_beef"}
+	],
+
+	"result": {"item": "simpledelights:lettuce_wrap"}
+
+}

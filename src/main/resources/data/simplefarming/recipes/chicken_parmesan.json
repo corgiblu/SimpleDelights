@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "simplefarming:cheese_slice"
+    },
+    {
+      "item": "simplefarming:olive_oil"
+    },
+    {
+      "tag": "forge:cooked_chicken"
+    }
+
+  ],
+
+  "result": {"item": "simplefarming:chicken_parmesan"}
+
+}

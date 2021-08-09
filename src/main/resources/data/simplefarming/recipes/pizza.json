@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "item": "simplefarming:cheese_slice"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "tag": "forge:crops/spinach"
+    }
+
+  ],
+
+  "result": {"item": "simplefarming:pizza"}
+
+}

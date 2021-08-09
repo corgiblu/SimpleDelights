@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simplefarming:orange"},
+		{ "item": "minecraft:sugar"},
+		{ "item": "minecraft:snowball"},
+		{ "item": "minecraft:bowl"}
+	],
+
+	"result": {"item": "simpledelights:orange_sorbet"}
+
+}

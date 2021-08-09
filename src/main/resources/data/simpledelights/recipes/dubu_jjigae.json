@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:mushrooms"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "simplefarming:tofu"
+    }
+  ],
+  "result": {
+    "item": "simpledelights:dubu_jjigae"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

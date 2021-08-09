@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+
+	"ingredients":
+	[
+		{ "item": "simplefarming:tofu"},
+		{ "tag": "forge:pasta" },
+		{ "tag": "forge:vegetables"},
+		{ "tag": "forge:vegetables"},
+		{ "tag": "forge:eggs"}
+	],
+
+	"result": {"item": "simplefarming:pad_thai"}
+
+}
