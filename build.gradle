@@ -163,8 +163,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-    implementation fg.deobf("curse.maven:farmers_delight-398521:3188508")
-    implementation fg.deobf("curse.maven:simple-farming-327554:3100674")
+    implementation fg.deobf("curse.maven:farmers_delight-398521:3418719")
+    implementation fg.deobf("curse.maven:simple-farming-327554:3400041")
 
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.4:7.6.1.73")
 }

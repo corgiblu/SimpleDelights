@@ -22,6 +22,8 @@ modId="simpledelights" #mandatory
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Simple Delights" #mandatory
+# A file name (in the root of the mod JAR) containing a logo for display
+logoFile="simpledelights.png" #optional
 # A text field displayed in the mod UI
 authors="Anna Erisian" #optional
 # The description text for the mod (multi line!) (#mandatory)
