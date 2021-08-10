@@ -3,7 +3,7 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:strawberries"},
+		{ "tag": "forge:fruits/strawberries"},
 		{ "tag": "forge:grain"},
 		{ "tag": "forge:milk"},
 		{ "tag": "forge:eggs" }

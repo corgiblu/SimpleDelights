@@ -2,16 +2,16 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "simplefarming:cassava"
+      "tag": "forge:crops/cassava"
     },
     {
       "tag": "forge:raw_beef"
     },
     {
-      "item": "minecraft:potato"
+      "tag": "forge:crops/potato"
     },
     {
-      "item": "simplefarming:barley"
+      "tag": "forge:grain/barley"
     }
   ],
   "result": {

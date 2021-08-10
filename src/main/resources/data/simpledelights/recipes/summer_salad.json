@@ -3,10 +3,10 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:honeydew"},
-		{ "item": "simplefarming:strawberries"},
-		{ "item": "simplefarming:blackberries"},
-		{ "item": "simplefarming:banana"},
+		{ "tag": "forge:fruits/honeydew"},
+		{ "tag": "forge:fruits/strawberries"},
+		{ "tag": "forge:fruits/blackberries"},
+		{ "tag": "forge:fruits/banana"},
 		{ "item": "minecraft:bowl"}
 	],
 

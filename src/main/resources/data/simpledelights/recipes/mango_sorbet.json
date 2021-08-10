@@ -3,7 +3,7 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:mango"},
+		{ "tag": "forge:fruits/mango"},
 		{ "item": "minecraft:sugar"},
 		{ "item": "minecraft:snowball"},
 		{ "item": "minecraft:bowl"}

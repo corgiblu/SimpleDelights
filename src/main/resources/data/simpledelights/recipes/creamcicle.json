@@ -3,7 +3,7 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:orange"},
+		{ "tag": "forge:fruits/orange"},
 		{ "tag": "forge:milk"},
 		{ "item": "minecraft:stick"},
 		{ "item": "minecraft:sugar"},

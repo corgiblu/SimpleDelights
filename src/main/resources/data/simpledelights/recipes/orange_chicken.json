@@ -5,10 +5,10 @@
       "tag": "forge:raw_chicken"
     },
     {
-      "item": "simplefarming:orange"
+      "tag": "forge:fruits/orange"
     },
     {
-      "item": "simplefarming:ginger"
+      "tag": "forge:crops/ginger"
     },
     {
       "item": "simplefarming:olive_oil"

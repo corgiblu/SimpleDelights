@@ -1,0 +1,9 @@
+Version 1.1
+===========
+Updated many recipes to use tags
+Improved unification of meat cuts
+    Raw Bacon now uses a recipe in a nicer place, avoiding persistent errors on load
+    Mincemeat now needed/used to make sausage
+    Chicken wings and cuts now come from cutting up chicken.  Bonemeal removed to balance it giving 3 items
+    Can also make 1 cuts from chicken via crafting
+    Cooked eggs now made in pot - Fried still from smelting

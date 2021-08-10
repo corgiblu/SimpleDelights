@@ -3,10 +3,10 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:yam"},
-		{ "item": "simplefarming:yam"},
-		{ "item": "simplefarming:yam"},
-		{ "item": "simplefarming:yam"},
+		{ "tag": "forge:crops/yam"},
+		{ "tag": "forge:crops/yam"},
+		{ "tag": "forge:crops/yam"},
+		{ "tag": "forge:crops/yam"},
 		{ "item": "minecraft:honey_bottle"}
 	],
 

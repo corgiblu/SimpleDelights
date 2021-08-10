@@ -2,16 +2,16 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "minecraft:sweet_berries"
+      "tag": "forge:fruits/sweet_berries"
     },
     {
-      "item": "simplefarming:blackberries"
+      "tag": "forge:fruits/blackberries"
     },
     {
-      "item": "simplefarming:blueberries"
+      "tag": "forge:fruits/blueberries"
     },
     {
-      "item": "simplefarming:raspberries"
+      "tag": "forge:fruits/raspberries"
     }
   ],
   "result": {

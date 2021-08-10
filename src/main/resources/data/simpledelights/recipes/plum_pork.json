@@ -3,7 +3,7 @@
 
 	"ingredients":
 	[
-		{ "item": "simplefarming:plum"},
+		{ "tag": "forge:fruits/plum"},
 		{ "item": "simplefarming:ginger"},
 		{ "item": "minecraft:cooked_porkchop"},
 		{ "item": "minecraft:sugar"}

@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "result": {
+    "item": "simplefarming:cooked_egg"
+  },
+  "cookingtime": 100
+}

@@ -11,10 +11,10 @@
       "tag": "forge:raw_beef"
     },
     {
-      "item": "simplefarming:soybean"
+      "tag": "forge:crops/soybean"
     },
     {
-      "item": "simplefarming:tofu"
+      "tag": "forge:protein/tofu"
     }
   ],
   "result": {

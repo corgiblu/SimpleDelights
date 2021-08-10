@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '1.1'
 group = 'blue.thejester' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'simpledelights'
 
@@ -167,6 +167,8 @@ dependencies {
     implementation fg.deobf("curse.maven:simple-farming-327554:3400041")
 
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.4:7.6.1.73")
+
+    runtimeOnly fg.deobf("curse.maven:tag-tooltips-402016:3036722")
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..

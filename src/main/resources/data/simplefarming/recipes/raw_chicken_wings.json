@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:chicken"
     }
   ],
   "result":
   {
-    "item": "farmersdelight:bacon",
+    "item": "farmersdelight:chicken_cuts",
     "count": 1
   }
 }

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:porkchop"
+      "item": "farmersdelight:minced_beef"
     }
   ],
   "result":
   {
-    "item": "farmersdelight:bacon",
+    "item": "simplefarming:raw_sausage",
     "count": 1
   }
 }

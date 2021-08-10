@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
 
     "ingredients": [
-        { "item": "simplefarming:peanut" },
+        { "tag": "forge:crops/peanut" },
         { "item": "simplefarming:oatmeal" },
         { "item": "minecraft:sugar" }
     ],

@@ -55,13 +55,13 @@ Adds some new foods using both Simple Farming and Farmer's Delight
 [[dependencies.simpledelights]]
     modId="simplefarming"
     mandatory=true
-    versionRange="[1.3.5,)"
+    versionRange="[1.3.8,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.simpledelights]]
     modId="farmersdelight"
     mandatory=true
-    versionRange="[0.3.2,)"
+    versionRange="[0.4.6,)"
     ordering="NONE"
     side="BOTH"
