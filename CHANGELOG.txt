@@ -7,3 +7,7 @@ Improved unification of meat cuts
     Chicken wings and cuts now come from cutting up chicken.  Bonemeal removed to balance it giving 3 items
     Can also make 1 cuts from chicken via crafting
     Cooked eggs now made in pot - Fried still from smelting
+
+Version 1.2
+===========
+<p>Adds cheese integration (Thanks to MorokMC)
