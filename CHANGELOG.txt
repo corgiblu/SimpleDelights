@@ -11,3 +11,7 @@ Improved unification of meat cuts
 Version 1.2
 ===========
 <p>Adds cheese integration (Thanks to MorokMC)
+
+Version 2.0
+===========
+Update to 1.19.2

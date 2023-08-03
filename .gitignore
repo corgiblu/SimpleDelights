@@ -23,5 +23,10 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/src/generated/resources/.cache/
+Forge-README.txt
+Forge_LICENSE.txt
+CREDITS.txt
+# changelog.txt
 
-logs
+libs

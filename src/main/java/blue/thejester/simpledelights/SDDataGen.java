@@ -1,31 +1,39 @@
 package blue.thejester.simpledelights;
 
-import enemeez.simplefarming.SimpleFarming;
-import enemeez.simplefarming.init.ModItems;
-import net.minecraft.item.Item;
-import net.minecraft.util.ResourceLocation;
+import enemeez.simplefarming.common.registries.ModItems;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.LanguageProvider;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
+import net.minecraftforge.registries.RegistryObject;
 
 @Mod.EventBusSubscriber(modid = SimpleDelights.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SDDataGen {
 
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {
-        event.getGenerator().addProvider(new ItemModelProvider(event.getGenerator(), SimpleDelights.MODID, event.getExistingFileHelper()) {
+        event.getGenerator().addProvider(event.includeClient(),
+                new ItemModelProvider(
+                        event.getGenerator(),
+                        SimpleDelights.MODID,
+                        event.getExistingFileHelper()) {
             @Override
             protected void registerModels() {
                 for (ResourceLocation item : SDItems.itemList()) {
-                    withExistingParent(item.getPath(), "item/generated").texture("layer0", new ResourceLocation(SimpleDelights.MODID, "item/"+item.getPath()));
+                    withExistingParent(item.getPath(), "item/generated")
+                            .texture("layer0",
+                                    new ResourceLocation(
+                                            SimpleDelights.MODID,
+                                            "item/"+item.getPath()));
                 }
             }
-        });
+    });
 
-        event.getGenerator().addProvider(new LanguageProvider(event.getGenerator(), SimpleDelights.MODID, "en_us") {
+        event.getGenerator().addProvider(event.includeClient(),
+                new LanguageProvider(event.getGenerator(), SimpleDelights.MODID, "en_us") {
             @Override
             protected void addTranslations() {
                 add(getItemTrans(SDItems.SQUASH_NOODLES), "Squash Noodles");
@@ -52,34 +60,31 @@ public class SDDataGen {
                 add(getItemTrans(SDItems.ORANGE_SORBET), "Orange Sorbet");
                 add(getItemTrans(SDItems.MANGO_SORBET), "Mango Sorbet");
                 add(getItemTrans(SDItems.SUMMER_SALAD), "Summer Salad");
+                add("itemGroup.simpledelights", "Simple Delights");
 
                 //Simple Farming Renames
-                add(getItemTrans(ModItems.fried_rice), "Omurice");
-                add(getItemTrans(ModItems.egg_sandwich), "Bacon Egg Sandwich");
-                add(getItemTrans(ModItems.pumpkin_soup), "Pumpkin Sauce");
-                add(getItemTrans(ModItems.fruit_salad), "Mixed Fruit");
-                add(getItemTrans(ModItems.apple_pie), "Apple Hand Pie");
-                add(getItemTrans(ModItems.apricot_pie), "Apricot Hand Pie");
-                add(getItemTrans(ModItems.blackberry_pie), "Blackberry Hand Pie");
-                add(getItemTrans(ModItems.blueberry_pie), "Blueberry Hand Pie");
-                add(getItemTrans(ModItems.cherry_pie), "Cherry Hand Pie");
-                add(getItemTrans(ModItems.peanut_butter_pie), "Peanut Butter Hand Pie");
-                add(getItemTrans(ModItems.pear_pie), "Pear Hand Pie");
-                add(getItemTrans(ModItems.plum_pie), "Plum Hand Pie");
-                add(getItemTrans(ModItems.raspberry_pie), "Raspberry Hand Pie");
-                add(getItemTrans(ModItems.strawberry_pie), "Strawberry Hand Pie");
+                add(getItemTrans(ModItems.FRIED_RICE), "Omurice");
+                add(getItemTrans(ModItems.EGG_SANDWICH), "Bacon Egg Sandwich");
+                add(getItemTrans(ModItems.PUMPKIN_SOUP), "Pumpkin Sauce");
+                add(getItemTrans(ModItems.FRUIT_SALAD), "Mixed Fruit");
+                add(getItemTrans(ModItems.APPLE_PIE), "Apple Hand Pie");
+                add(getItemTrans(ModItems.APRICOT_PIE), "Apricot Hand Pie");
+                add(getItemTrans(ModItems.BLACKBERRY_PIE), "Blackberry Hand Pie");
+                add(getItemTrans(ModItems.BLUEBERRY_PIE), "Blueberry Hand Pie");
+                add(getItemTrans(ModItems.CHERRY_PIE), "Cherry Hand Pie");
+                add(getItemTrans(ModItems.PEANUT_BUTTER_PIE), "Peanut Butter Hand Pie");
+                add(getItemTrans(ModItems.PEAR_PIE), "Pear Hand Pie");
+                add(getItemTrans(ModItems.PLUM_PIE), "Plum Hand Pie");
+                add(getItemTrans(ModItems.RASPBERRY_PIE), "Raspberry Hand Pie");
+                add(getItemTrans(ModItems.STRAWBERRY_PIE), "Strawberry Hand Pie");
 
                 //Farmer's Delight renames
-                add(getItemTrans(vectorwing.farmersdelight.registry.ModItems.SQUID_INK_PASTA), "Gourmet Squid Ink Pasta");
+                add(getItemTrans(vectorwing.farmersdelight.common.registry.ModItems.SQUID_INK_PASTA), "Gourmet Squid Ink Pasta");
             }
         });
     }
 
     private static String getItemTrans(RegistryObject<Item> registryObject) {
         return "item." + registryObject.getId().getNamespace() + "." + registryObject.getId().getPath();
-    }
-
-    private static String getItemTrans(Item registryObject) {
-        return "item." + registryObject.getRegistryName().getNamespace() + "." + registryObject.getRegistryName().getPath();
     }
 }
